@@ -3,7 +3,7 @@
 :root {
     --Fundo: #020202;
     --Frufru: hsl(283, 95%, 45%);
-    --branco: #faab00;
+    --Gold: #faab00;
     --botao-ativo: #3A375E;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(116, 105, 245, 0.3);
@@ -11,7 +11,7 @@
 
 body {
     background-color: var(--Fundo);
-    color: var(--branco);
+    color: var(--Gold);
     font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -40,7 +40,7 @@ body {
 .botao {
     font-family: 'Chakra Petch', sans-serif;
     background-color: var(--botao-inativo);
-    color: var(--branco);
+    color: var(--Gold);
     display: flex;
     justify-content: center;
     padding: 1em;
